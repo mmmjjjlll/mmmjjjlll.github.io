@@ -1,0 +1,294 @@
+/* default settings */
+body {
+	text-align:	center;
+	font-family:	san-serif;
+	font-size:	small;
+	color:		#333;
+	background-color: #fff;
+	margin:		10px;
+	padding:	0px;
+	line-height: 140%;
+}
+
+p {
+	margin:		0px;
+	padding:	0px 0px 5px;
+	font-weight: normal;
+	line-height: 1.4em;
+}
+li{
+	margin:		5px 0px 5px 0px;
+}
+strong {
+	font-weight:bold;
+	font-size:	small;
+	margin-top: 5px;
+}
+
+
+img {
+	font-size:	0px; /* for IE's bug */
+	margin:		0px;
+	padding:	0px;
+	border:		0px none #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:	10px 10px 0px 0px;
+	padding:	0px;
+	color:		#333;
+}
+h1 {
+	font-size: large;
+	margin: 0px 0px 10px;
+	padding: 0px;
+}
+h2 {
+	font-size: medium;
+	font-weight: bolder;
+	padding: 3px 0px 5px;
+}
+h3 {
+	font-size: medium;
+	font-weight: bolder;
+	margin: 5px 0px;
+	padding: 20px 0px 0px;
+}
+h4 {
+	font-size: medium;
+	font-weight: bolder;
+	margin: 20px 0px 0px;
+	padding: 0px;
+}
+h5 {
+	font-size: medium;
+	font-weight: bolder;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+	color: #00F;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: none;
+	color: #093;
+}
+
+span.nonedisp {
+display:none;
+}
+
+/* outer frame */
+#frame {
+	width:		750px;
+	margin:		0px auto 0px;
+	padding:	0px;
+	border:		1px solid #999;
+	text-align:	left;
+	color:		#333;
+	background-color: #fff;
+	font: small san-serif;
+}
+
+/* headding frame */
+#head {
+	width:		750px;
+	padding:	0px;
+	height: auto;
+}
+
+/* title logo */
+#headlogo {
+	width:		600px;
+	height:		45px;
+	padding:	5px 0px;
+	float:		left;
+	background: url(img/misbanner.gif) no-repeat 0px 5px;
+}
+
+/* language selector */
+#langbox {
+	width:		140px;
+	height:		45px;
+	text-align:	right;
+	float:		left;
+	padding: 5px 0px;
+}
+.english {
+	display:	block;
+	width:		70px;
+	height:		45px;
+	padding:	0px;
+	margin:		0px;
+	float:		left;
+}
+.english2 {
+	background: transparent url(img/button/english_3.gif) no-repeat top left;
+	display:	block;
+	width:		70px;
+	height:		45px;
+	padding:	0px;
+	margin:		0px;
+	float:		left;
+}
+.japanese {
+	display:	block;
+	width:		70px;
+	height:		45px;
+	padding:	0px;
+	margin:		0px;
+	float:		left;
+}
+.japanese2 {
+	background: transparent url(img/button/japanese_3.gif) no-repeat top left;
+	display:	block;
+	width:		70px;
+	height:		45px;
+	padding:	0px;
+	margin:		0px;
+	float:		left;
+}
+/* navigation bar */
+#menu {
+	clear:		both;
+	width:		750px;
+	height:		30px;
+	padding-top:	0px;
+	text-align:	center;
+	background: #79f;
+}
+
+#container {
+	width:		528px;
+	margin:		0px auto 0px;
+	background: #36C;
+}
+
+#foreword {
+	width:		570px;
+	padding: 0px;
+	margin: 10px 30px 40px;
+}
+#foreword li{
+	text-decoration: none;
+	list-style: none;
+}
+
+.button {
+	float:		left;
+}
+
+.button a {
+	display:	block;
+	vertical-align:	center;
+	width:		88px;
+	height:		30px;
+	padding:	0px;
+	margin:		0px;
+}
+
+
+/* banner image */
+#image {
+	clear:		both;
+	height:		110px;
+	width:		750px;
+	background: #36C;
+}
+
+/* direction display */
+#menu2 {
+	width: 740px;
+	padding: 7px 0px 6px 10px;
+	text-align: left;
+	color:		#00C;
+	background: #9bf;
+}
+
+#menu2 a {
+	text-decoration: none;
+	font-weight:	bold;
+	font-size:	small;
+	color:		#00C;
+	background: #9bf;
+}
+#menu2 a:hover {
+	color:		#FFF;
+	text-decoration: none;
+}
+/* direction display */
+#menu3 {
+	width: 		740px;
+	padding:	 8px 0px 6px 10px;
+	text-align: left;
+	background: #9bf;
+	font-weight: bold;
+	font-size: 12px;
+	color: #00C;
+}
+
+#menu3 a {
+	text-decoration: none;
+}
+#menu3 a:hover {
+	color:		#fff;
+	text-decoration: none;
+}
+
+
+/* main frame */
+#main {
+	width:		730px;
+	padding:	10px;
+}
+
+#copyright {
+	margin-top:	10px;
+	padding:	3px;
+	text-align:	center;
+	background: #79f;
+	color: #FFF;
+	clear: both;
+	height: auto;
+}
+#copyright a{
+	font-weight: normal;
+}
+
+/*page top button */
+#topbtn {
+	width:		30px;
+	height:		30px;
+	margin:	0px 0px 0px auto;
+	clear: both;
+}
+.pagetop {
+	display:	block;
+	width:		30px;
+	height:		30px;
+}
+a.pagetop {
+	background: transparent url(img/up.gif) no-repeat top right ;
+}
+a.pagetop:hover {
+	background: transparent url(img/up_2.gif) no-repeat top right;
+}
+
+/* characters */
+.red{
+	color: #900;
+}
+.title{
+	font-weight: bold;
+	color: #333;
+}
+.author{
+	color: #333;
+}
+.index{
+	color: #333;
+	font-size: smaller;
+	font-style: italic;
+}
