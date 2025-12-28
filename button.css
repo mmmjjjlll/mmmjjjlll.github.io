@@ -1,0 +1,75 @@
+.button a.home {
+	background: transparent url(img/button/home_1.gif) no-repeat top left;
+}
+.button a.home:hover {
+	background: transparent url(img/button/home_2.gif) no-repeat top left;
+}
+.button a.researchtopics {
+	background: transparent url(img/button/researchtopic_1.gif) no-repeat left top;
+}
+.button a.researchtopics:hover {
+	background: transparent url(img/button/researchtopic_2.gif) no-repeat left top;
+}
+.button a.projects {
+	background: transparent url(img/button/org_1.gif) no-repeat left top;
+}
+.button a.projects:hover {
+	background: transparent url(img/button/org_2.gif) no-repeat left top;
+}
+.button a.members {
+	background: transparent url(img/button/members_1.gif) no-repeat top left;
+}
+.button a.members:hover {
+	background: transparent url(img/button/members_2.gif) no-repeat top left;
+}
+.button a.contactus {
+	background: transparent url(img/button/contactus_1.gif) no-repeat top left;
+}
+.button a.contactus:hover {
+	background: transparent url(img/button/contactus_2.gif) no-repeat top left;
+}
+.button a.sitemap {
+	background: transparent url(img/button/sitemap_1.gif) no-repeat top left;
+}
+.button a.sitemap:hover {
+	background: transparent url(img/button/sitemap_2.gif) no-repeat top left;
+}
+
+/*language*/
+a.japanese {
+	background: transparent url(img/button/japanese_1.gif) no-repeat top left;
+}
+a.japanese:hover {
+	background: transparent url(img/button/japanese_2.gif) no-repeat top left;
+}
+/*top*/
+a.klm{
+	background: transparent url(img/topimg/top-klm1.gif) no-repeat left top;
+}
+a.klm:hover {
+	background: transparent url(img/topimg/top-klm3.gif) no-repeat left top;
+}
+a.im{
+	background: transparent url(img/topimg/top-im1.gif) no-repeat left top;
+}
+a.im:hover {
+	background: transparent url(img/topimg/top-im3.gif) no-repeat left top;
+}
+a.sem{
+	background: transparent url(img/topimg/top-sem1.gif) no-repeat left top;
+}
+a.sem:hover {
+	background: transparent url(img/topimg/top-sem3.gif) no-repeat left top;
+}
+a.kdb{
+	background: transparent url(img/topimg/top-kc1.gif) no-repeat left top;
+}
+a.kdb:hover {
+	background: transparent url(img/topimg/top-kc3.gif) no-repeat left top;
+}
+a.cmi{
+	background: transparent url(img/topimg/top-cmi1.gif) no-repeat left top;
+}
+a.cmi:hover {
+	background: transparent url(img/topimg/top-cmi3.gif) no-repeat left top;
+}
