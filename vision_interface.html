@@ -1,0 +1,277 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<!-- Read comments inserted as NOTE -->
+  <link rel="SHORTCUT ICON" href="http://www.mis.atr.jp/img/icn/icn.ico">
+
+ 
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+ 
+  <meta http-equiv="content-style-type" content="text/css">
+  <title>Project Vision Based Interactive Media | ATR MIS</title>
+
+ 
+ 
+  <link href="mis_style.css" rel="stylesheet" type="text/css">
+
+ 
+  <link href="english.css" rel="stylesheet" type="text/css">
+
+ 
+  <link href="button.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<a name="top"></a>
+
+<div id="frame"><img src="topimg_vision.jpg" alt="Vision Based Interactive Media image" height="110" width="750">
+
+
+
+
+
+
+<div id="main">
+
+<h2>Project | <span class="red">Vision Based Interactive Media</span></h2>
+
+
+<!-- NOTE: Don't change anything of above parts except your banner image -->
+
+
+
+<!-- NOTE: Change the following contents for your project -->
+
+
+<!-- NOTE: In-page link. Delete here if it is unnecessary. -->
+<a href="#a">Introduction </a>| <a href="#b">Overview</a> | <a href="#c">Publication</a> |&nbsp;<a href="#d"></a>
+
+<h3><a name="a"></a>Introduction</h3>
+
+
+<p>The musculature of the face allows for fine motor control of
+actions, and the associated cortical circuitry occupies a comparatively
+large part of the somatosensory area. So it is interesting to explore
+the possibility of machine interfaces that are driven by facial action.
+While our primary aim is to augment action of the hands in
+human-computer interaction, this work may also be useful for
+motor-impaired users. Spinal paralysis usually leaves cranial nerves,
+and facial control, intact.</p>
+
+
+<h3><a name="b"></a>Overview</h3>
+
+
+<p>There are several facets to our research. We use simple, rapid, and
+robust computer vision techniques to create interactive systems that
+allow a user to control several input parameters simultaneously. We use
+well-defined control tasks to conduct user studies with the new
+interaction media. Finally several application domains related to human
+communication, expression, and artistic creation and explored. To date,
+several systems have been implemented and studied.</p>
+
+
+<ol>
+
+  <li>
+	<strong>The Mouthesizer: A New Interface for Musical Expression</strong>
+	Our first facial gesture interface used a miniature camera mounted on the head pointed at the region of the mouth.
+	
+    <div style="margin: 10px 0px; text-align: center;"><img src="vowels.jpg" alt="The Mouthesizer" height="240" width="320"></div>
+
+	
+    <p>Shape
+parameters of the open mouth are extracted and mapped to MIDI controls.
+This allows motion of the mouth to be used to control a musical system,
+much in the same way that a pedal controller is used by musicians.
+Because facial action is involved in both speech production and
+emotional expression, there is a rich space of intuitive gesture to
+sound mappings for face action. In the video clip below, the shape of
+the mouth controls a vowel formant filter. When the mouth is shaped so
+as to make a certain vowel, a synthesizer is used to produce the sound
+of that vowel.</p>
+
+	<br>
+
+	<a href="http://www.mis.atr.jp/%7Emlyons/Mouth/Vowel.mpg"><img src="vowel_thumb.jpg" alt="Video Clip" border="0" height="120" width="180"></a> Video Clip(2.6MB mpg)
+	<br>
+    <br>
+
+  </li>
+
+  <li>
+	<strong>Point with the Nose and Click with the Mouth</strong>
+	
+    <p>With
+this system the tip of the nose is tracked to allow the user to control
+the position of a cursor with head movements. A mouse click is
+simulated by detecting the opening and closing of the mouth.</p>
+
+	
+    <div style="margin: 10px 0px; text-align: center;"><img src="face-tracker.jpg" alt="Point with the Nose and Click with the Mouth" height="240" width="331"></div>
+
+	
+    <p>The
+ISO standard task for evaluating pointing devices was used to evaluate
+this system. We measured an information throughput of approximately 2
+bits/sec in user studies. This is less efficient than a mouse, but
+similar to the efficiency of a joystick or trackball.</p>
+
+	
+    <p>The
+system was used with the Open Source "Dasher" system to enable
+hands-free text entry. With relatively little practice, users can
+quickly learn to enter text at a rate of about 10 words/minute by
+simply moving their head. Text entry is initiated and stopped by
+opening the mouth. This is demonstrated in the video clip below.</p>
+
+	<br>
+
+	<a href="http://www.mis.atr.jp/%7Emlyons/vbim/mouth_dasher.mpg"><img src="dasher_2.jpg" alt="video clip" border="0" height="135" width="180"></a>
+	Video Clip(3.7MB mpg)
+	<br>
+
+	<br>
+
+  </li>
+
+  <li>
+	<strong>MouthBrush: Digital Painting by Hand and Mouth</strong>
+	
+    <p>Some
+of the earliest works of art were created by blowing pigment through a
+tube pointed at a surface such as the wall of a cave. We have
+re-introduced action of the mouth into painting by creating a system
+that allows an artist to control the properties of a digital brush with
+the mouth.</p>
+
+	
+    <p>Aspects of brush and ink such as hardness,
+transparency, brush size, are controlled by changing the open size of
+the mouth. The following video clip shows the MouthBrush system in
+action.</p>
+
+	
+    <div style="margin: 10px 0px; text-align: center;"><img src="mouth_brush.jpg" alt="Digital Painting by Hand and Mouth" height="240" width="320"></div>
+
+	
+    <p>Here are some examples of paintings that have been created using the MouthBrush system.</p>
+
+	
+    <div style="text-align: center;"><img src="gc_s.jpg" alt="paintings" height="200" width="192"><img src="ttc_s.jpg" alt="paintings" height="200" width="169"><img src="bamboo_s.jpg" alt="paintings" height="200" width="200"></div>
+	
+  </li>
+
+  <li>
+	<strong>MouthType: Mobile Text Entry by Hand and Mouth</strong>
+	
+    <p>It
+is increasingly common to enter text on very limited keyboards such as
+those on mobile phones. A diverse array of methods have been invented
+to "disambiguate" several characters mapped to the same key. Here we
+use the shape of the mouth to disambiguate characters on a given key.
+We have implemented prototypes for English and Japanese text entry. The
+prototypes work with both a head-worn camera arrangement and a
+face-tracking system. The method is best suited to the Japanese writing
+system, which allows text entry using a syllabaries (hiragana and
+katakana). The following diagram illustrates the principle of hiragana
+text entry using MouthType:</p>
+
+	
+    <div style="margin: 10px 0px; text-align: center;"><img src="mouth_type.jpg" alt="MouthType" height="300" width="281"></div>
+
+	
+    <p>For
+Japanese text entry, MouthType makes use of existing expertise at
+shaping the mouth to produce vowels. The following video clip shows
+Japanese text entry using the MouthType system:</p>
+
+	
+    <div style="margin: 10px 0px; text-align: center;"><img src="mouth_i.jpg" alt="MouthType system" height="240" width="420"></div>
+
+  </li>
+
+</ol>
+
+
+<h3><a name="c"></a>Publications</h3>
+
+
+<!-- NOTE: To add new publications, copy<li> to </li>, paste in between <ol> and </ol> and change the texts. -->
+
+<ol>
+
+
+  <li>
+    <span class="title">MouthType: Text Entry by Hand and Mouth</span><br>
+
+    <span class="auther">Michael J. Lyons, Chi-ho Chan, Nobuji Tetsutani</span><br>
+
+    <span class="index">Proceedings, CHI 2004 pp. 1383-1386 </span>
+    <a href="http://www.mis.atr.jp/%7Emlyons/pub_pdf/mouthtype.pdf">[462K PDF]</a></li>
+
+
+  <li>
+    <span class="title">A Novel Face-tracking Mouth Controller and its Application to Interacting with Bioascoustic Models</span><br>
+
+    <span class="auther">Gamhewage C. de Silva, Tamara Smyth, Michael J. Lyons</span><br>
+
+    <span class="index">Proceedings, 2004 Conference on New Interfaces for Musical Expression (NIME-03), pp. (2004)</span>
+  </li>
+
+
+  <li>
+    <span class="title">Mouthbrush: Drawing and Painting by Hand and Mouth</span><br>
+
+    <span class="auther">Chi-ho Chan, Michael J. Lyons, Nobuji Tetsutani</span><br>
+
+    <span class="index">Proceedings, ICMI-PUI 2003 pp. 277-280 </span><a href="http://www.mis.atr.jp/%7Emlyons/pub_pdf/mouthbrush.pdf">[580K PDF]</a>
+  </li>
+
+
+  <li>
+    <span class="title">Human Factors Evaluation of a Vision-Based Facial Gesture Interface</span><br>
+
+    <span class="auther">Gamhewage C. De Silva, Michael J. Lyons, Shinjiro Kawato, Nobuji Tetsutani</span><br>
+
+    <span class="index">Proceedings, CVPR-HCI 2003.</span><a href="http://www.mis.atr.jp/%7Emlyons/pub_pdf/lyons_cvprhci.pdf">[555K PDF]
+    </a></li>
+
+
+  <li>
+    <span class="title">Designing, Playing, and Performing with a Vision-Based Mouth Interface</span><br>
+
+    <span class="auther">Michael J. Lyons, Michael Haehnel, Nobuji Tetsutani</span><br>
+
+    <span class="index">Proceedings, 2003 Conference on New Interfaces for Musical Expression (NIME-03), pp. 116-121 (2003).</span><a href="http://www.mis.atr.jp/%7Emlyons/pub_pdf/lyons_nime03.pdf">[386K PDF]
+    </a></li>
+
+
+  <li>
+    <span class="title">The Mouthesizer: A Facial Gesture Musical Interface</span><br>
+
+    <span class="auther">Michael J. Lyons, Michael Haehnel, Nobuji Tetsutani</span><br>
+
+    <span class="index">Conference Abstracts, Siggraph 2001, p. 230.</span><a href="http://www.mis.atr.jp/%7Emlyons/pub_pdf/79.pdf">[234K PDF]
+    </a></li>
+
+
+</ol>
+
+
+<br>
+
+
+
+
+</div>
+ 
+
+</div>
+ 
+<!-- end of div frame -->
+
+</body>
+</html>
