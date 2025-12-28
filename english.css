@@ -1,0 +1,9 @@
+/* font re-setting for English pages */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#frame {
+	font-family: Arial, Helvetica, sans-serif;
+}
